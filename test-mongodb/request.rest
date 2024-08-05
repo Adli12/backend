@@ -1,0 +1,27 @@
+GET http://localhost:5000/Minatkarir
+
+###
+GET http://localhost:5000/Minatkarir/66abb381618f1a07fb48d607
+
+###
+POST http://localhost:5000/Minatkarir
+Content-Type: application/json
+
+{
+    "name" : "rafa",
+    "email" : "rafa@gmai.com",
+    "gender" : "male"
+}
+
+###
+PATCH http://localhost:5000/Minatkarir/66abb381618f1a07fb48d607
+Content-Type: application/json
+
+    {
+    "name" : "joko",
+    "email" : "budi@gmai.com",
+    "gender" : "male"
+}
+
+###
+DELETE http://localhost:5000/Minatkarir/66abb368618f1a07fb48d605
